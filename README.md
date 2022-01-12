@@ -6,7 +6,7 @@
  1. Use Unix process API to create and manage processes. 
     - fork() to create a new create process
     - execvp() to run a different program that is the user input command
-    - waitpid() to check for the termination of the child process, and cleans up resources from child processes.
+    - waitpid() to check for the termination of the child process, and clean up resources from child processes
     - getpid() to get the process id
     - getenv() to get environment variable
  2. Support input and output redirection using dup2() system call
