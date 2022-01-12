@@ -10,7 +10,10 @@
     - getpid() to get the process id
     - getenv() to get environment variable
  2. Support input and output redirection using dup2() system call
- 3. Switch beteween foreground-only and foreground-and-background
+ 3. Switch between foreground-only and foreground-and-background
  4. Expand any instance of "$$" in a command into the process ID
  5. Implement custom handlers to override 2 signals, SIGINT and SIGTSTP
  6. Used valgrind to ensure memory-leak free
+
+<br><br>
+ ![demo](sample.png)
